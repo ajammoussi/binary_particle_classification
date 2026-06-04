@@ -67,6 +67,18 @@ Actual Photon    27114   10292
      Electron     9226   28068
 ```
 
+**ROC Curve and Predictions (ViT):**
+
+<div align="center">
+  <img src="results/ViT/roc_result.png" width="600"/>
+  <p><i>ViT ROC Curve with optimal threshold marked</i></p>
+</div>
+
+<div align="center">
+  <img src="results/ViT/sample_predictions.png" width="900"/>
+  <p><i>Sample ViT predictions on test set (8 random samples showing energy channel)</i></p>
+</div>
+
 ### Compact Convolutional Transformer (CCT)
 
 | Metric | Value |
@@ -96,6 +108,18 @@ weighted avg       0.74      0.74      0.74     74700
 Actual Photon    26670   10736
      Electron     8787   28507
 ```
+
+**ROC Curve and Predictions (CCT):**
+
+<div align="center">
+  <img src="results/CCT/roc_result.png" width="600"/>
+  <p><i>CCT ROC Curve with optimal threshold marked</i></p>
+</div>
+
+<div align="center">
+  <img src="results/CCT/sample_predictions.png" width="900"/>
+  <p><i>Sample CCT predictions on test set (8 random samples showing energy channel)</i></p>
+</div>
 
 ### Performance Comparison
 
